@@ -1,0 +1,35 @@
+# Ignore dataset and logs
+data/
+data/**
+
+# Python caches and bytecode
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Virtual envs
+venv/
+.env/
+.env.*
+
+.venv/
+
+
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# Large pretrained models (tweak if you want to keep some)
+pretrained_models/
+pretrained_models/**
+
+# Logs and runtime DBs
+*.log
+*.sqlite
+*.db
